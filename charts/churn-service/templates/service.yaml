@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: churn-svc
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector: { app: churn-service }
   ports:
   - port: {{ .Values.service.port }}
