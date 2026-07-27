@@ -1,6 +1,8 @@
 replicaCount: 1
 image:
   repository: ghcr.io/yancharskaya/churn-service
-  tag: "v0.1.1"
+  tag: "aa4636aaf42fa5baafe66687aa5522c374c76ef8"
 service:
   port: 8000
+trainImage:
+  tag: aa4636aaf42fa5baafe66687aa5522c374c76ef8
